@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-image: url('river and the forest.avif');
+    background-color: white;
+    margin: 0;
+}
+#logo {
+    width: max(230px, 8vw);
+    padding: 2.1rem;
+    padding-left: 90px;
+ }
+ nav{ 
+  width: 100%;
+  max-width: 600px;
+  height:50px;
+  position: relative;
+  left:700px;
+  top:-60px;
+  color: white;
+  }
+    nav > ul {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: right;
+      padding-inline-start:0;
+      margin-block:0;
+      height: 100%;
+       }
+       nav > ul > li{ 
+        margin:  0rem;
+        padding: 0.1rem;
+        display: block;
+       }
+       nav > ul > li>a{
+        color:white;
+        text-decoration: none;
+        font-family: Helvetica;
+      }
+ #bannerPlace{
+position:relative;
+width: 450px;
+left: 726px;
+top: 200px;
+ }
+#banner{
+  position:absolute;
+  color: white;
+  font-size: 51px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+ #explore{
+ position:absolute;
+ }
