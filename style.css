@@ -26,38 +26,46 @@ header {
  justify-content: space-between;
  align-items: center;
 }
+
 nav > ul {
  display:flex;
  flex-wrap: wrap;
  gap: 1rem;
 }
+
 nav > ul > li { 
  list-style: none;
 }
+
 nav > ul > li>a {
   color:white;
   text-decoration: none;
   font-family: Helvetica;
 }
+
 #banner-place {
   position: absolute;
   left: 55%;
   top: 25%;
 }
+
 .banner {
   color: white;
   font-size: 51px;
   font-family: 'Oswald', sans-serif;
 }
+
 main {
   padding: 30px 100px 20px 100px;
 }
+
 .explore-volvo {
   display: flex; 
   overflow-x: scroll;
   overflow-y: hidden;
   gap: 20px;
 }
+
 .carousel-image {
   display: inline-block;
   min-width: 350px;
@@ -66,15 +74,18 @@ main {
   flex: 1;
   position: relative;
 }
+
 .carousel-image h2,
 .carousel-image h5 {
   color: white;
   z-index: 2;
   position: absolute;
 }
+
 .carousel-image h2 {
   top: 30px;
 }
+
 .carousel-image::after {
   content: "";
   position: absolute;
@@ -82,70 +93,75 @@ main {
   background-color: rgba(0, 0, 0, 0.3) ;
   z-index: 1;
 }
+
 .carousel-image:nth-child(1) {
   background: url('./assests/ex90-front.avif') 10%;
 }
+
 .carousel-image:nth-child(2) {
   background: url('./assests/carousel-trucks.avif') ;
 }
+
 .carousel-image:nth-child(3) {
   background: url('./assests/solar-desert.avif') ;
 }
+
 .carousel-image:nth-child(4) {
   background: url('./assests/bus-night.avif') 30%;
 }
+
 .carousel-image:nth-child(5) {
   background: url('./assests/industrial-tractor.avif');
 }
+
 .carousel-image:nth-child(6) {
   background: url('./assests/volvo-marine.avif') ;
 }
+
 .carousel-image:nth-child(7) {
   background: url('') 40% 45%;
 }
+
 .carousel-image:nth-child(8) {
   background: url('./assests/defense.avif') no-repeat center;
 }
+
 .carousel-image:nth-child(9) {
   background: url('./assests/business.avif') 0% 90% ;
 }
+
 .video-container {
   margin: 5% 0 ;
 }
+
 .video {
   display: flex;
   height: 100%;
   width: 100%;
   margin: 0;
 }
-.join-us{
-  display: flex;
-}
-.career-visit-lifestyle {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
+
 .career-visit-lifestyle h2 {
   font-size: 2em;
   font-weight: bold;
 }
-.join-us {
+
+.row {
   display: flex;
-  flex-direction: row;
-  gap: 2em;
+  gap: 2rem;
+  margin: 2rem 0;
 }
-.museum-spring {
-  display: flex;
-  flex-direction: row;
-  margin: 2em 0;
-  gap: 2em;
+
+.row > * { 
+  flex: 1;
 }
-.lifestyle {
-  display: flex;
-  flex-direction: row;
-  margin: 2em 0;
-  gap: 2em;
+
+.career-visit-lifestyle figure {
+  margin: 0;
+}
+
+.career-visit-lifestyle img{
+  max-width: 100%;  
 }
 
 .button {
@@ -159,38 +175,45 @@ main {
   font-size: 16px;
   margin: 10px
 }
+
 .button a{
   color: white;
   text-decoration: none;
 }
+
 footer {
   background-color: black; 
   width: 100%;
   display: flex;
-  padding: 30px 100px 20px 100px;
-  
+  padding: 30px 100px 20px 100px; 
 }
+
 .footer-content {
  color: white;
  font-size: 1.5rem;
  flex: 1;
 }
+
 .footer-content li {
   list-style: none;
   font-size: 2rem;
 }
+
 .footer-content ul {
   padding: 0;
 }
+
 .footer-content li a {
   text-decoration: none;
   color: white;
 }
+
 .copyright {
   color: gray;
   font-size: 0.8rem;
   padding-top: 35%;
 }
+
 .copyright a{
  text-decoration: none;
  color: white;
